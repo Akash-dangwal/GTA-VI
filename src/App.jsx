@@ -197,10 +197,7 @@ const App = () => {
                 <h1 className="text-8xl">Still Running,</h1>
                 <h1 className="text-8xl">Not Hunting</h1>
                 <p className="mt-10 text-xl font-[Helvetica_Now_Display]">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Distinctio possimus, asperiores nam, omnis inventore nesciunt
-                  a architecto eveniet saepe, ducimus necessitatibus at
-                  voluptate.
+                  Experience the ultimate open-world adventure where every street tells a story and every choice shapes your destiny. Navigate through a sprawling metropolis filled with endless possibilities, high-stakes heists, and unforgettable characters in the most immersive crime saga ever created.
                 </p>
                 
                 <button className="bg-yellow-500 px-10 py-10 text-black mt-10 text-4xl">
