@@ -188,14 +188,14 @@ const App = () => {
             <div className="cntnr flex text-white w-full h-[80%] ">
               <div className="limg relative w-1/2 h-full">
                 <img
-                  className="absolute scale-[1.3] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-                  src="./imag.png"
+                  className="absolute scale-[0.8] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                  src="./img.png"
                   alt=""
                 />
               </div>
-              <div className="rg w-[30%] py-30">
-                <h1 className="text-8xl">Still Running,</h1>
-                <h1 className="text-8xl">Not Hunting</h1>
+              <div className="rg w-[30%] py-6">
+                <h1 className="text-8xl text-amber-300">Still Running,</h1>
+                <h1 className="text-8xl  text-amber-300 ">Not Hunting</h1>
                 <p className="mt-10 text-xl font-[Helvetica_Now_Display]">
                   Experience the ultimate open-world adventure where every street tells a story and every choice shapes your destiny. Navigate through a sprawling metropolis filled with endless possibilities, high-stakes heists, and unforgettable characters in the most immersive crime saga ever created..
                 </p>
