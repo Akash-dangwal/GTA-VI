@@ -1,12 +1,27 @@
-# React + Vite
+# GTA VI — Animated Landing Page Concept
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Fan-made landing page concept inspired by the GTA VI reveal, built to practice
+cinematic web animation. **Live:** https://akash-dangwal.github.io/GTA-VI/
 
-Currently, two official plugins are available:
+> Not affiliated with Rockstar Games. Artwork and trademarks belong to their
+> owners; this is a non-commercial animation study.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What it demonstrates
 
-## Expanding the ESLint configuration
+- **SVG mask reveal intro** — the "VI" logo mask rotates and scales out to reveal the page, driven by a GSAP timeline.
+- **Layered parallax hero** — sky, city and character layers scale and rotate into place on separate tracks.
+- **Mouse-reactive movement** — hero layers shift with the cursor for depth.
+- **Responsive layout** with Tailwind CSS v4.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Stack
+
+React 19 · Vite 7 · GSAP 3 (`@gsap/react`) · Tailwind CSS v4 · GitHub Pages
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Deploy to GitHub Pages: `npm run deploy`
